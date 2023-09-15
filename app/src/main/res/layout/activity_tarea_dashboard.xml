@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DasboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewEncabezado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PORTAFOLIO DE PRACTICAS"
+            android:layout_margin="10dp"
+            android:textSize="25dp"/>
+
+        <ListView
+            android:id="@+id/lvPracticas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/botonIrAActivity2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DASHBOARD" />
+        <Button
+            android:id="@+id/botonIrAActivity3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botones" />
+        <Button
+            android:id="@+id/botonIrAActivity4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="regreso" />
+    </LinearLayout>
+</LinearLayout>

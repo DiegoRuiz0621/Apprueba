@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Publicaciones">
+
+    <include layout="@layout/action_bar_toolbar" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        >
+
+
+        <!-- Main content -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:background="@color/FondoPost">
+
+            <!-- Cuadrado exterior -->
+
+            <RelativeLayout
+                android:layout_width="356dp"
+                android:layout_height="255dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="113dp"
+                android:background="@android:color/darker_gray"> <!-- Color de fondo del cuadrado exterior -->
+
+                <!-- Texto en el cuadrado exterior -->
+
+                <!-- Cuadrado interior -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="170dp"
+                    android:layout_marginBottom="219dp"
+                    android:text="Escuela de Negocios" />
+
+                <RelativeLayout
+                    android:layout_width="247dp"
+                    android:layout_height="105dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="53dp"
+                    android:layout_marginTop="97dp"
+                    android:layout_marginEnd="52dp"
+                    android:layout_marginBottom="53dp"
+                    android:background="@color/white"> <!-- Color de fondo del cuadrado interior -->
+
+                    <!-- Texto en el cuadrado interior -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <!-- Cuadrado exterior -->
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="323dp"
+                    android:layout_height="44dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginBottom="169dp"
+                    android:text="Queremos invitarte a la Kermes por el dia de independencia este 14 de septiembre" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="49dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/Anahuac" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="7dp"
+                    app:srcCompat="@drawable/ic_sms" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="305dp"
+                    android:layout_marginBottom="9dp"
+                    app:srcCompat="@drawable/ic_arrow_up" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="262dp"
+                    android:layout_marginBottom="7dp"
+                    app:srcCompat="@drawable/ic_arrow_down" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="356dp"
+                android:layout_height="255dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="14dp"
+                android:layout_marginBottom="379dp"
+                android:background="@android:color/darker_gray"> <!-- Color de fondo del cuadrado exterior -->
+
+                <!-- Texto en el cuadrado exterior -->
+
+                <!-- Cuadrado interior -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="170dp"
+                    android:layout_marginBottom="219dp"
+                    android:text="Escuela de ingenieria" />
+
+                <RelativeLayout
+                    android:layout_width="247dp"
+                    android:layout_height="105dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="53dp"
+                    android:layout_marginTop="97dp"
+                    android:layout_marginEnd="52dp"
+                    android:layout_marginBottom="53dp"
+                    android:background="@color/white"> <!-- Color de fondo del cuadrado interior -->
+
+                    <!-- Texto en el cuadrado interior -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <!-- Cuadrado exterior -->
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="323dp"
+                    android:layout_height="44dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginBottom="169dp"
+                    android:text="Queremos invitar a la comunidad estudiantil a la novena carrera anahuac" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="49dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/Anahuac" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="13dp"
+                    android:layout_marginBottom="7dp"
+                    app:srcCompat="@drawable/ic_sms" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="308dp"
+                    android:layout_marginBottom="9dp"
+                    app:srcCompat="@drawable/ic_arrow_up" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="265dp"
+                    android:layout_marginBottom="9dp"
+                    app:srcCompat="@drawable/ic_arrow_down" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/bleforum"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:menu="@menu/bottom_navigation_menu"
+            />
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

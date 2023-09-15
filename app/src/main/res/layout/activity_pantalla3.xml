@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/Foto_CV_Movil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Foto de perfil" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Nombre: Juan Pérez"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Email: juan.perez@email.com"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewExperience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Experiencia Laboral:"
+        android:textSize="18sp" />
+
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textViewExperience"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="8dp"
+         android:text="- Empresa B, Puesto B, 2018-2020"
+         android:textSize="16sp" /> -->
+
+     <!-- Agregar más secciones como Educación y Habilidades aquí -->
+
+    <TextView
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewExperience"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="66dp"
+        android:text="- Empresa Patito, Puesto Gerente de ventas, 2020-2022"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewExperience"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="Regresar" />
+
+</RelativeLayout>
